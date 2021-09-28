@@ -1,30 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+본 웹페이지는 NextJS를 기반으로 한 리크봇의 블로그에요.
+자유롭게 버그수정이 가능하고, TailwindCSS의 블로그를 기반으로 했어요.
 
-## Getting Started
+## 직접 호스팅하기
 
-First, run the development server:
+먼저, 개발서버를 준비하세요.
 
 ```bash
 npm run dev
-# or
+# 이건 아직 검증 안됨!
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+그 후에 [http://localhost:3000](http://localhost:3000)를 브라우저로 방문하여 결과를 보세요.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+성공헀나요? 그럼 축하드려요! `pages/index.js`를 이제 수정해서 글을 올릴 수 있어요. Next.JS의 장점인 서버 렌더링을 살려서 업데이트마다 글을 즉시 올릴 수 있어요.
 
-## Learn More
+## 근데, Next.JS가 뭐냐고요?
 
-To learn more about Next.js, take a look at the following resources:
+Next.JS가 뭔지 궁금하면 여기 아래를 봐주세요!
 
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+언제나 쉽게 방법을 알 수 있는 문서들이에요. 디스코드에도 nextjs 서버가 있으니 들어가보세요!
