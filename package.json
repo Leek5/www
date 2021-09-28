@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next export && npm run build:rss",
-    "start": "next start",
-    "build:rss": "node ./.next/server/scripts/build-rss.js"
+    "build": "next build && next export",
+    "start": "next start"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.0",
