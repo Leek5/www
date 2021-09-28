@@ -1,0 +1,27 @@
+import { leek } from '@/authors'
+import image from './card.jpg'
+
+export const meta = {
+  title: `Discord-components를 이용해 개발하시는 개발자분들께`,
+  description: `봇이 Pycord를 이제 사용하기 때문에 Discord-components의 지원을 종료하고, Pycord와 호환되는 신규 모듈인 "Pycord_components"를 사용해요. 따라서 Discord-components는 Discord.py를 강제 설치한다는 이유로 인해 이용을 제한하며, 기존 Discord-components에서 쉽게 이동하는 방법에 대해 이 공지에서 알려드리려 해요.`,
+  date: '2021-09-23T17:48:00.000Z',
+  authors: [leek],
+  image,
+  discussion: 'https://discord.gg/mN2ZttmZF6',
+}
+
+<!--excerpt-->
+**Discord-components를 이용해 개발하시는 개발자분들께**
+봇이 Pycord를 이제 사용하기 때문에 Discord-components의 지원을 종료하고, Pycord와 호환되는 신규 모듈인 "Pycord_components"를 사용해요. 따라서 Discord-components는 Discord.py를 강제 설치한다는 이유로 인해 이용을 제한하며, 기존 Discord-components에서 쉽게 이동하는 방법에 대해 이 공지에서 알려드리려 해요.
+
+**1. 이미 Discord-components로 만든 앱이 있으며 시간이 없는 경우**
+ - 파이썬 import문의 **as** 기능을 이용하여 `import pycord_components as discord_components` 와 같이 나타낼 수 있어요
+ - `DiscordComponents` 로 모듈을 부르는 경우, `PycordComponents` 로 바꾸면 돼요.
+ - `requirements.txt` 의 discord_components를 `pycord_components` 로 바꾸면 돼요.
+
+**2. 이미 Discord-components로 만든 앱이 있으며 시간이 넉넉한 경우**
+ - 모든 `discord_components` 나 `DiscordComponents` 를 사용하는 부분을 찾아서 전부 `pycord_components` 나 `PycordComponents` 로 바꾸면 돼요.
+ - `requirements.txt` 의 discord_components를 `pycord_components` 로 바꾸면 돼요.
+
+**3. 새로운 앱을 만드려는 경우**
+ - 절대로 Discord-components를 사용하지 말아주세요. pycord_components는 기능은 유지하므로 새롭게 배움으로서 발생하는 learning-curve를 최대한 억제했으니 사용해 주세요.

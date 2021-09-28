@@ -1,0 +1,20 @@
+import { leek } from '@/authors'
+import image from './card.jpg'
+
+export const meta = {
+  title: `버전 5.0.39 업데이트`,
+  description: `버전 5.0.39 버전 업데이트는 2021년 9월 22일에 배포되며, 배포되는 기간동안은 재부팅이 잠시 될 수도 있어요. 버전 5.0.39는 아래와 같은 변경사항을 포함하고 있어요:`,
+  date: '2021-09-22T17:39:00.000Z',
+  authors: [leek],
+  image,
+  discussion: 'https://discord.gg/mN2ZttmZF6',
+}
+
+<!--excerpt-->
+**버전 5.0.39 업데이트**
+버전 5.0.39 버전 업데이트는 2021년 9월 22일에 배포되며, 배포되는 기간동안은 재부팅이 잠시 될 수도 있어요. 버전 5.0.39는 아래와 같은 변경사항을 포함하고 있어요:
+
+* requirements에서 제공되는 기본모듈 추가 - 기존에 discord.py==1.7.3,EZPaginator,lxml,discord-components,aiosqlite,jishaku,PingPongTool만 지원되던 부분을 패치해서 이제 새로운 모듈 2개 bs4,psutil이 지원돼요. 어플리케이션을 생성할때는 위 모듈들을 이제 더 이상 작성하지 않아도 되므로, 기존 앱 생성자들은 requirements에서 위 모듈들을 제거해 주세요.
+* 새로운 기능들을 지원 - 동전돌리기 (앞/뒷면 각각 50% 확률), Ping, 방명록, 귓속말 기능을 새롭게 지원해요.
+* 베타 기능 지원 - 상태메시지 10초 간격으로 변경 / Invidious API를 이용한 MP4 재생 (ffmpeg 모듈 기본설치) / 경험치 및 레벨 체계 기능을 베타로 지원해요. 이 기능들은 언젠가 제거될 수도 있어요.
+* 지원 예정 기능 - 네이버 실검/코로나19/컴시간/급식
